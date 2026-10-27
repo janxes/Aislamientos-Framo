@@ -136,13 +136,17 @@ export default function App() {
 
         {/* Main Header Bar */}
         <div className="max-w-[1220px] mx-auto px-4 sm:px-6 py-2.5 flex items-center justify-between gap-4">
-          {/* Left Grey Placeholder Box ("img") matching screenshot */}
+          {/* Left Brand Logo */}
           <a
             href="#"
-            className="w-[180px] sm:w-[258px] h-[52px] bg-[#c7c8ca] flex items-center justify-center shrink-0 select-none"
+            className="flex items-center shrink-0 select-none"
             aria-label="Aislamientos Framo"
           >
-            <span className="font-editorial text-[11px] text-[#1b1c1a]">img</span>
+            <img
+              src="/assets/aistudio/image_4378061d.png"
+              alt="Aislamientos Framo"
+              className="h-[46px] sm:h-[52px] w-auto object-contain"
+            />
           </a>
 
           {/* Center Navigation Links (2-line stacked as in screenshot) */}
