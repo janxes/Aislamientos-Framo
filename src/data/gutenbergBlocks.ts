@@ -62,22 +62,22 @@ export const TT5_HEADER_BLOCKS = `<!-- wp:group {"align":"full","style":{"spacin
 </div>
 <!-- /wp:group -->`;
 
-export const TT5_SECTION_01_BLOCKS = `<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"56px","bottom":"64px","left":"24px","right":"24px"},"margin":{"top":"0px","bottom":"0px"}},"color":{"background":"#fbf9f6"}},"layout":{"type":"constrained","contentSize":"1200px","wideSize":"1200px"}} -->
-<div class="wp-block-group alignfull has-background" style="background-color:#fbf9f6;margin-top:0px;margin-bottom:0px;padding-top:56px;padding-right:24px;padding-bottom:64px;padding-left:24px">
-  <!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","letterSpacing":"0.04em"},"color":{"text":"#1b1c1a"},"spacing":{"margin":{"bottom":"20px"}}}} -->
-  <p class="has-text-color" style="color:#1b1c1a;margin-bottom:20px;font-size:13px;font-weight:700;letter-spacing:0.04em"><span style="color:#cc292b">01</span> / AISLAMIENTO TÉRMICO Y ACÚSTICO EN MADRID <span style="font-weight:400;color:#43474a">/ Sin Obras</span></p>
+export const TT5_SECTION_01_BLOCKS = `<!-- wp:cover {"url":"https://aislamientosframo.com/wp-content/uploads/2024/09/nueva_imagen_home_aislamientos_framo_1280.jpg","dimRatio":50,"customOverlayColor":"#11171a","isUserOverlayColor":true,"align":"full","style":{"spacing":{"padding":{"top":"64px","bottom":"64px","left":"24px","right":"24px"},"margin":{"top":"0px","bottom":"0px"}}},"layout":{"type":"constrained","contentSize":"1200px","wideSize":"1200px"}} -->
+<div class="wp-block-cover alignfull" style="margin-top:0px;margin-bottom:0px;padding-top:64px;padding-right:24px;padding-bottom:64px;padding-left:24px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-50 has-background-dim" style="background-color:#11171a"></span><img class="wp-block-cover__image-background" alt="" src="https://aislamientosframo.com/wp-content/uploads/2024/09/nueva_imagen_home_aislamientos_framo_1280.jpg" data-object-fit="cover"/><div class="wp-block-cover__inner-container">
+  <!-- wp:paragraph {"style":{"typography":{"fontSize":"13px","fontWeight":"700","letterSpacing":"0.04em"},"color":{"text":"#ffffff"},"spacing":{"margin":{"bottom":"20px"}}}} -->
+  <p class="has-text-color" style="color:#ffffff;margin-bottom:20px;font-size:13px;font-weight:700;letter-spacing:0.04em"><span style="color:#ff5a5c">01</span> / AISLAMIENTO TÉRMICO Y ACÚSTICO EN MADRID <span style="font-weight:400;color:#dbe4e9">/ Sin Obras</span></p>
   <!-- /wp:paragraph -->
 
-  <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"32px","left":"48px"},"margin":{"bottom":"48px"}}}} -->
-  <div class="wp-block-columns alignwide" style="margin-bottom:48px">
+  <!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"32px","left":"48px"},"margin":{"bottom":"0px"}}}} -->
+  <div class="wp-block-columns alignwide" style="margin-bottom:0px">
     <!-- wp:column {"width":"66%"} -->
     <div class="wp-block-column" style="flex-basis:66%">
-      <!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"54px","fontWeight":"700","lineHeight":"1.08","letterSpacing":"-0.02em"},"color":{"text":"#1b1c1a"},"spacing":{"margin":{"bottom":"24px"}}}} -->
-      <h1 class="wp-block-heading has-text-color" style="color:#1b1c1a;margin-bottom:24px;font-size:54px;font-weight:700;letter-spacing:-0.02em;line-height:1.08">Elimina el frío, las humedades por condensación y el ruido sin obras en tu hogar con <em style="color:#cc292b;font-style:italic">Aislamientos Framo</em>.</h1>
+      <!-- wp:heading {"level":1,"style":{"typography":{"fontSize":"54px","fontWeight":"700","lineHeight":"1.08","letterSpacing":"-0.02em"},"color":{"text":"#ffffff"},"spacing":{"margin":{"bottom":"24px"}}}} -->
+      <h1 class="wp-block-heading has-text-color" style="color:#ffffff;margin-bottom:24px;font-size:54px;font-weight:700;letter-spacing:-0.02em;line-height:1.08">Elimina el frío, las humedades por condensación y el ruido sin obras en tu hogar con <em style="color:#ff5a5c;font-style:italic">Aislamientos Framo</em>.</h1>
       <!-- /wp:heading -->
 
-      <!-- wp:paragraph {"style":{"typography":{"fontSize":"17px","lineHeight":"1.6"},"color":{"text":"#43474a"}}} -->
-      <p class="has-text-color" style="color:#43474a;font-size:17px;line-height:1.6">Insuflado de lana de roca, celulosa y EPS grafito en cámaras de aire. Confort inmediato garantizado, ahorro de hasta el 50% en calefacción y fin al moho en paredes de forma definitiva.</p>
+      <!-- wp:paragraph {"style":{"typography":{"fontSize":"17px","lineHeight":"1.6"},"color":{"text":"#ffffff"}}} -->
+      <p class="has-text-color" style="color:#ffffff;font-size:17px;line-height:1.6">Insuflado de lana de roca, celulosa y EPS grafito en cámaras de aire. Confort inmediato garantizado, ahorro de hasta el 50% en calefacción y fin al moho en paredes de forma definitiva.</p>
       <!-- /wp:paragraph -->
     </div>
     <!-- /wp:column -->
@@ -107,7 +107,11 @@ export const TT5_SECTION_01_BLOCKS = `<!-- wp:group {"align":"full","style":{"sp
     <!-- /wp:column -->
   </div>
   <!-- /wp:columns -->
+</div></div>
+<!-- /wp:cover -->
 
+<!-- wp:group {"align":"full","style":{"spacing":{"padding":{"top":"40px","bottom":"64px","left":"24px","right":"24px"},"margin":{"top":"0px","bottom":"0px"}},"color":{"background":"#fbf9f6"}},"layout":{"type":"constrained","contentSize":"1200px","wideSize":"1200px"}} -->
+<div class="wp-block-group alignfull has-background" style="background-color:#fbf9f6;margin-top:0px;margin-bottom:0px;padding-top:40px;padding-right:24px;padding-bottom:64px;padding-left:24px">
   <!-- wp:group {"align":"wide","style":{"color":{"background":"#efede9"},"border":{"radius":"12px","color":"#e4e2df","width":"1px"},"spacing":{"padding":{"top":"32px","bottom":"32px","left":"32px","right":"32px"},"margin":{"bottom":"36px"}}},"layout":{"type":"constrained"}} -->
   <div id="diagnostico" class="wp-block-group alignwide has-border-color has-background" style="border-color:#e4e2df;border-width:1px;border-radius:12px;background-color:#efede9;margin-bottom:36px;padding-top:32px;padding-right:32px;padding-bottom:32px;padding-left:32px">
     <!-- wp:paragraph {"style":{"typography":{"fontSize":"12px","fontWeight":"700","letterSpacing":"0.05em","textTransform":"uppercase"},"color":{"text":"#cc292b"},"spacing":{"margin":{"bottom":"6px"}}}} -->

@@ -201,65 +201,90 @@ export default function App() {
       {/* =====================================================================
           01 / HERO, TRUST CARD, QUICK DIAGNOSIS & 4 METRICS
       ===================================================================== */}
-      <section className="w-full pt-12 pb-16 bg-[#fbf9f6]">
-        <div className="max-w-[1220px] mx-auto px-4 sm:px-6">
-          {/* Kicker */}
-          <div className="text-[12px] tracking-[0.04em] mb-5 flex items-center gap-1.5 flex-wrap">
-            <span className="font-bold text-[#cc292b]">01</span>
-            <span className="text-[#74787a]">/</span>
-            <span className="font-bold text-[#1b1c1a]">
-              AISLAMIENTO TÉRMICO Y ACÚSTICO EN MADRID
-            </span>
-            <span className="text-[#43474a]">/ Sin Obras</span>
-          </div>
+      <section className="w-full bg-[#fbf9f6]">
+        {/* Hero Banner Zone with Background Photo */}
+        <div className="relative w-full overflow-hidden bg-[#1b2226] py-14 sm:py-16 lg:py-20">
+          {/* Background Image */}
+          <img
+            src="/assets/aistudio/image_4a7b4a29.png"
+            onError={(e) => {
+              e.currentTarget.src =
+                'https://aislamientosframo.com/wp-content/uploads/2024/09/nueva_imagen_home_aislamientos_framo_1280.jpg';
+            }}
+            alt="Aislamientos Framo instalación sin obras"
+            className="absolute inset-0 w-full h-full object-cover object-[center_30%]"
+          />
+          {/* Balanced Contrast Scrim: keeps photo clearly visible while ensuring text legibility */}
+          <div
+            className="absolute inset-0"
+            style={{
+              background:
+                'linear-gradient(90deg, rgba(15, 20, 23, 0.78) 0%, rgba(15, 20, 23, 0.58) 50%, rgba(15, 20, 23, 0.22) 100%)',
+            }}
+          />
 
-          {/* Main Hero 2-Column Split */}
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-end mb-12">
-            {/* Left Column: H1 + Lead */}
-            <div className="lg:col-span-8">
-              <h1 className="font-display text-[38px] sm:text-[50px] lg:text-[54px] font-bold text-[#111312] leading-[1.06] tracking-[-0.025em] mb-6">
-                Elimina el frío, las
-                <br />
-                humedades por
-                <br />
-                condensación y el ruido
-                <br />
-                sin obras en tu hogar
-                <br />
-                con{' '}
-                <em className="font-editorial italic font-semibold text-[#c92829]">
-                  Aislamientos Framo
-                </em>
-                .
-              </h1>
-              <p className="text-[15.5px] sm:text-[16.5px] text-[#43474a] leading-[1.6] max-w-[680px]">
-                Insuflado de lana de roca, celulosa y EPS grafito en cámaras de aire. Confort
-                inmediato garantizado, ahorro de hasta el 50% en calefacción y fin al moho en
-                paredes de forma definitiva.
-              </p>
+          <div className="relative z-10 max-w-[1220px] mx-auto px-4 sm:px-6">
+            {/* Kicker */}
+            <div className="text-[12px] tracking-[0.04em] mb-5 flex items-center gap-1.5 flex-wrap drop-shadow-[0_1px_4px_rgba(0,0,0,0.8)]">
+              <span className="font-bold text-[#ff5a5c]">01</span>
+              <span className="text-white/80">/</span>
+              <span className="font-bold text-white">
+                AISLAMIENTO TÉRMICO Y ACÚSTICO EN MADRID
+              </span>
+              <span className="text-white/90">/ Sin Obras</span>
             </div>
 
-            {/* Right Column: Certified Specialists Card */}
-            <div className="lg:col-span-4">
-              <div className="bg-[#f3f1ed] border border-[#e9e7e2] rounded-[10px] p-5 sm:p-6">
-                <div className="flex items-center gap-2 text-[12.5px] font-bold text-[#1b1c1a] mb-2">
-                  <BadgeCheck className="w-4 h-4 text-[#cc292b] shrink-0" />
-                  <span>Especialistas Certificados en Madrid</span>
-                </div>
-                <p className="text-[12px] text-[#43474a] leading-[1.5] mb-3.5">
-                  Trabajo limpio ejecutado desde el exterior o interior en un solo día. Sin
-                  andamios molestos ni obras pesadas.
+            {/* Main Hero 2-Column Split */}
+            <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-end">
+              {/* Left Column: H1 + Lead */}
+              <div className="lg:col-span-8">
+                <h1 className="font-display text-[38px] sm:text-[50px] lg:text-[54px] font-bold text-white leading-[1.06] tracking-[-0.025em] mb-6 drop-shadow-[0_2px_12px_rgba(0,0,0,0.75)]">
+                  Elimina el frío, las
+                  <br />
+                  humedades por
+                  <br />
+                  condensación y el ruido
+                  <br />
+                  sin obras en tu hogar
+                  <br />
+                  con{' '}
+                  <em className="font-editorial italic font-semibold text-[#ff5a5c]">
+                    Aislamientos Framo
+                  </em>
+                  .
+                </h1>
+                <p className="text-[15.5px] sm:text-[16.5px] text-white font-medium leading-[1.6] max-w-[680px] drop-shadow-[0_2px_8px_rgba(0,0,0,0.85)]">
+                  Insuflado de lana de roca, celulosa y EPS grafito en cámaras de aire. Confort
+                  inmediato garantizado, ahorro de hasta el 50% en calefacción y fin al moho en
+                  paredes de forma definitiva.
                 </p>
-                <a
-                  href="tel:695928763"
-                  className="inline-flex items-center gap-1.5 bg-[#f6e0dd] hover:bg-[#f0d2ce] text-[#b6171e] text-[12px] font-bold px-3.5 py-1.5 rounded-[5px] transition-colors"
-                >
-                  <Phone className="w-3 h-3" />
-                  <span>Llámanos: 695 92 87 63</span>
-                </a>
+              </div>
+
+              {/* Right Column: Certified Specialists Card */}
+              <div className="lg:col-span-4">
+                <div className="bg-[#f3f1ed]/95 backdrop-blur-xs border border-white/30 rounded-[10px] p-5 sm:p-6 shadow-xl">
+                  <div className="flex items-center gap-2 text-[12.5px] font-bold text-[#1b1c1a] mb-2">
+                    <BadgeCheck className="w-4 h-4 text-[#cc292b] shrink-0" />
+                    <span>Especialistas Certificados en Madrid</span>
+                  </div>
+                  <p className="text-[12px] text-[#43474a] leading-[1.5] mb-3.5">
+                    Trabajo limpio ejecutado desde el exterior o interior en un solo día. Sin
+                    andamios molestos ni obras pesadas.
+                  </p>
+                  <a
+                    href="tel:695928763"
+                    className="inline-flex items-center gap-1.5 bg-[#f6e0dd] hover:bg-[#f0d2ce] text-[#b6171e] text-[12px] font-bold px-3.5 py-1.5 rounded-[5px] transition-colors"
+                  >
+                    <Phone className="w-3 h-3" />
+                    <span>Llámanos: 695 92 87 63</span>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
+        </div>
+
+        <div className="max-w-[1220px] mx-auto px-4 sm:px-6 pt-10 pb-16">
 
           {/* Quick Diagnosis & Quote Card */}
           <div
