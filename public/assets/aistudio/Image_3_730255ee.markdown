@@ -1,0 +1,163 @@
+---
+name: Aislamientos Framo Professional System
+colors:
+  surface: '#fbf9f6'
+  surface-dim: '#dbdad7'
+  surface-bright: '#fbf9f6'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f5f3f0'
+  surface-container: '#efeeeb'
+  surface-container-high: '#eae8e5'
+  surface-container-highest: '#e4e2df'
+  on-surface: '#1b1c1a'
+  on-surface-variant: '#43474a'
+  inverse-surface: '#30312f'
+  inverse-on-surface: '#f2f0ed'
+  outline: '#74787a'
+  outline-variant: '#c3c7c9'
+  surface-tint: '#576064'
+  primary: '#172024'
+  on-primary: '#ffffff'
+  primary-container: '#2c3539'
+  on-primary-container: '#949da2'
+  inverse-primary: '#bec8cd'
+  secondary: '#b6171e'
+  on-secondary: '#ffffff'
+  secondary-container: '#da3433'
+  on-secondary-container: '#fffbff'
+  tertiary: '#001f3c'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#00355f'
+  on-tertiary-container: '#589fed'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dbe4e9'
+  primary-fixed-dim: '#bec8cd'
+  on-primary-fixed: '#141d21'
+  on-primary-fixed-variant: '#3f484c'
+  secondary-fixed: '#ffdad6'
+  secondary-fixed-dim: '#ffb3ac'
+  on-secondary-fixed: '#410003'
+  on-secondary-fixed-variant: '#930010'
+  tertiary-fixed: '#d2e4ff'
+  tertiary-fixed-dim: '#a0c9ff'
+  on-tertiary-fixed: '#001c37'
+  on-tertiary-fixed-variant: '#00497f'
+  background: '#fbf9f6'
+  on-background: '#1b1c1a'
+  surface-variant: '#e4e2df'
+  roof-charcoal: '#2C3539'
+  energy-red: '#D32F2F'
+  cooling-blue: '#1E73BE'
+  surface-warm: '#FBF9F6'
+  pure-white: '#FFFFFF'
+typography:
+  headline-xl:
+    fontFamily: Newsreader
+    fontSize: 48px
+    fontWeight: '600'
+    lineHeight: '1.1'
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Newsreader
+    fontSize: 36px
+    fontWeight: '600'
+    lineHeight: '1.2'
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Newsreader
+    fontSize: 28px
+    fontWeight: '500'
+    lineHeight: '1.3'
+  headline-sm:
+    fontFamily: Newsreader
+    fontSize: 22px
+    fontWeight: '500'
+    lineHeight: '1.4'
+  body-lg:
+    fontFamily: Source Sans 3
+    fontSize: 18px
+    fontWeight: '400'
+    lineHeight: '1.6'
+  body-md:
+    fontFamily: Source Sans 3
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: '1.5'
+  body-sm:
+    fontFamily: Source Sans 3
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: '1.5'
+  label-md:
+    fontFamily: Source Sans 3
+    fontSize: 14px
+    fontWeight: '600'
+    lineHeight: '1.2'
+    letterSpacing: 0.05em
+  metric:
+    fontFamily: Source Sans 3
+    fontSize: 32px
+    fontWeight: '700'
+    lineHeight: '1.1'
+rounded:
+  sm: 0.125rem
+  DEFAULT: 0.25rem
+  md: 0.375rem
+  lg: 0.5rem
+  xl: 0.75rem
+  full: 9999px
+spacing:
+  gutter: 24px
+  margin: 32px
+  space-xs: 4px
+  space-sm: 8px
+  space-md: 16px
+  space-lg: 24px
+  space-xl: 48px
+  space-2xl: 80px
+---
+
+## Brand & Style
+
+This design system establishes a reliable, professional approach tailored for insulation and energy-efficiency services in Madrid. Built to align seamlessly with WordPress Gutenberg (TT5) architectures, it pairs authoritative editorial typography with clean, utilitarian structure. The aesthetic tone is anchored by a warm, inviting surface, reassuring homeowners and commercial partners alike of technical competence and regional expertise.
+
+## Colors
+
+The color architecture directly mirrors the brand's core visual identity derived from its technical scope. The seed color (`#2C3539`) acts as the primary charcoal/slate grey for structural elements and roofs, while secondary energy red symbolizes solar warmth and thermal efficiency. Clean sky blue serves as a tertiary accent representing cooling, and a warm, inviting surface background (`#FBF9F6`) delivers a comfortable, human-centric reading environment.
+
+## Typography
+
+Typography balances literary authority with clean legibility. Headlines utilize **Newsreader**, providing a distinguished, trustworthy editorial voice well-suited for high-end residential and commercial services. Body copy and technical metrics rely on **Source Sans 3**, ensuring pristine readability across documentation, service descriptions, and Gutenberg block layouts.
+
+## Layout & Spacing
+
+The layout follows a fluid, content-first grid optimized for WordPress Gutenberg patterns. Spacing tokens enforce a reliable 8px rhythm, scaling comfortably from dense mobile viewports to expansive desktop displays. Generous vertical padding (`space-xl` and `space-2xl`) between sections establishes a calm, professional cadence appropriate for architectural and engineering services.
+
+## Elevation & Depth
+
+Visual hierarchy relies on a combination of tonal layering against the warm `#FBF9F6` surface and low-contrast outlines. Avoid heavy drop shadows; instead, use subtle surface containers in pure white (`#FFFFFF`) framed with delicate borders to demarcate interactive cards, testimonials, and quote calculators. This approach maintains a clean, modern aesthetic rooted in tactile reliability.
+
+## Shapes
+
+With a roundedness level of `1` (Soft), UI elements feature a gentle `0.25rem` radius for standard components, scaling to `0.5rem` (`rounded-lg`) for cards and containers. This slight softening prevents the layout from feeling overly industrial while preserving the precise, professional geometry expected of a premier Madrid contracting service.
+
+## Components
+
+### Buttons
+- **Primary:** Solid charcoal (`#2C3539`) background with white text and soft rounded corners. On hover, shifts to energy red (`#D32F2F`) for primary calls-to-action like "¡Me interesa!".
+- **Secondary:** Outlined with charcoal borders on warm surface backgrounds, shifting to solid tint on hover.
+
+### Chips & Badges
+- Utilized for location tags (e.g., "Aluche", "Barajas") and compliance callouts ("NextGenerationEU"). Styled with compact padding, subtle neutral backgrounds, and label typography.
+
+### Input Fields & Forms
+- Clean border-led text fields featuring 100% full-width mobile responsiveness, clear placeholder states in muted slate, and high-contrast focus rings in cooling blue (`#1E73BE`).
+
+### Cards
+- Service and testimonial cards use pure white surfaces (`#FFFFFF`) set against the warm background, anchored by a subtle outline and Newsreader section headers.
+
+### Additional Components
+- **Direct Action Bar:** Fixed mobile footer component housing a direct telephone link and WhatsApp integration button for instant conversions.
